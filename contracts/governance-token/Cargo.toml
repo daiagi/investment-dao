@@ -25,7 +25,6 @@ std = [
     "ink/std",
     "scale/std",
     "scale-info/std",
-
     "openbrush/std",
 ]
 ink-as-dependency = [] 

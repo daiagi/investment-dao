@@ -10,7 +10,8 @@ ink = { version = "4.2.1", default-features = false }
 scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive"] }
 scale-info = { version = "2.5", default-features = false, features = ["derive"], optional = true }
 
-governance_token = { path = "../governance-token", default-features = false, features = ["ink-as-dependency"] }
+openbrush = { tag = "4.0.0-beta", git = "https://github.com/Brushfam/openbrush-contracts", default-features = false, features = ["psp22"]}
+governance_token = { path = "../governance-token", default-features = false, features = ["ink-as-dependency"]}
 
 [lib]
 path = "lib.rs"
@@ -21,6 +22,7 @@ std = [
     "ink/std",
     "scale/std",
     "scale-info/std",
+    "openbrush/std",
     "governance_token/std",
 ]
 ink-as-dependency = []
