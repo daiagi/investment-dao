@@ -1,4 +1,6 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
+#![feature(once_cell)]
+
 
 #[ink::contract]
 pub mod dao {
