@@ -40,7 +40,7 @@
     },
     "governance-token": {
       "name": "governance-token",
-      "moduleName": "my_psp22_metadata",
+      "moduleName": "governance_token",
       "deployments": []
     }
   }
